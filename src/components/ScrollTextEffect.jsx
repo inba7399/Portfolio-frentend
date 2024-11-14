@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useScroll, motion, useTransform } from "framer-motion";
 
 
-export default function ScrollTextEffect({text}) {
+export default function ScrollTextEffect({text,size}) {
   const element = useRef(null);
   const { scrollYProgress } = useScroll({
     target: element,
@@ -15,7 +15,7 @@ export default function ScrollTextEffect({text}) {
     <p
       ref={element}
       style={{
-        fontSize: "70px",
+        fontSize: `${size}px`,
         color: "white",
         display: "flex",
         flexWrap: "wrap",

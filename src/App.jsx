@@ -10,7 +10,7 @@ function App() {
     <div className='bg-zinc-950'>
       <ReactLenis root>
       <Hero />
-      <ScrollTextEffect text="Here are some of my projects 👇🏻" />
+      <ScrollTextEffect size={80} text="Here are some of my projects 👇🏻" />
        <div className='h-[100vh]'> 
        </div>
       </ReactLenis>
