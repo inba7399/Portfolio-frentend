@@ -6,7 +6,7 @@ import {
   useMotionTemplate,
 } from "framer-motion";
 
-export default function HeroCover({ HEIGHT }) {
+export default function HeroCover() {
   const { scrollY } = useScroll();
   const opacity = useTransform(scrollY, [1500, 2000], [1, 0]);
   const backgroundSize = useTransform(scrollY, [1500, 2000], ["170%", "100%"]);

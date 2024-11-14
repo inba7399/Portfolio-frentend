@@ -1,6 +1,7 @@
 import Hero from './pages/Hero'
 import { ReactLenis } from 'lenis/dist/lenis-react.mjs'
 import './App.css'
+import ScrollTextEffect from './components/ScrollTextEffect'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className='bg-zinc-950'>
       <ReactLenis root>
       <Hero />
+      <ScrollTextEffect text="Here are some of my projects 👇🏻" />
        <div className='h-[100vh]'> 
        </div>
       </ReactLenis>

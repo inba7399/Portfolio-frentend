@@ -22,7 +22,7 @@ export default function NavBar({ children }) {
       >
         <nav
           style={{
-            backdropFilter: "blur(8px)",
+            backdropFilter: "blur(6px)",
             backgroundColor: "rgba(255, 255, 255, 0.4)",
             cursor: "pointer",
           }}
@@ -30,7 +30,6 @@ export default function NavBar({ children }) {
         >
           <a href="#">Home</a>
           <a href="#">Projects</a>
-          <a href="#">About</a>
           <a href="#" className="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
